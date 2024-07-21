@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat" !important;
+  color: #000 !important;
+}
+.spinner {
+  margin: auto;
+}
+button {
+  background-color: #ee553b !important;
+  border-color: #ee553b !important;
+  font-weight: 600;
+  color: #fff;
+}
+.sidebar-links {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.count-item,
+.heading-title,
+.triangle {
+  color: #ee553b;
+}
+.item-count {
+  background-color: #ee553b;
+  color: #fff;
+}
+/* .container {
+  padding: 50px;
+} */
+.dashboard-container {
+  position: relative;
+  top: 0;
+  padding: 0.5rem 33px 1rem;
+  z-index: 12;
+  background: #fff;
+  margin-bottom: 0.75rem;
+}
+.disclaimer {
+  font-size: 0.875rem;
+}
