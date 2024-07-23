@@ -110,7 +110,7 @@ const MoveCard = ({ myMoves }) => {
                         alt="Edit"
                       />
                       <div className="gap-2 flex items-center mt-2">
-                        <input type="checkbox" className="mr-2" defaultChecked />
+                        <input type="checkbox" className="check-box mr-2" defaultChecked />
                         <span>Is flexible</span>
                       </div>
                     </div>
